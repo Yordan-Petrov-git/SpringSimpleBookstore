@@ -1,0 +1,13 @@
+package com.yordan.petrov.git.dao.repositories;
+
+
+import com.yordan.petrov.git.dao.entity.Cathegory;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CategoryRepository extends JpaRepository<Cathegory,Long> {
+
+
+
+}
